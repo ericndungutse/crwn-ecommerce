@@ -48,7 +48,7 @@ class App extends React.Component {
 				<Header />
 				<Switch>
 					<Route exact path='/' component={HomePage} />
-					<Route path='/shop' component={ShopPage} />
+					<Route  path='/shop' component={ShopPage} />
 					<Route path='/checkout' component={Checkout} />
 					<Route
 						path='/signin'
@@ -72,7 +72,7 @@ class App extends React.Component {
 					<Header />
 					<Switch>
 						<Route exact path='/' component={HomePage} />
-						<Route path='/shop' component={ShopPage} />
+						<Route exact path='/shop' component={ShopPage} />
 						<Route
 							path='/signin'
 							render={() =>
